@@ -5,7 +5,7 @@ Repository for 2015 IROS Tutorial - How to use ROS and Gazebo with the ROBOTIS O
 2015 IEEE/RSJ International Conference on Intelligent Robots and Systems
 September 28 – October 03, 2015, Hamburg, Germany                                                  
  
-Tutorial     C:\Users\Jianwei Zhang\Desktop\Project\IROS2015\Call_for_papers\logo2.png
+Tutorial
 How to Use ROS and Gazebo with the ROBOTIS OP2
 
 Organizers: K. Daun, J. Kim, R. Jung
