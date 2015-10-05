@@ -1,4 +1,5 @@
-# robotis_op_iros_tutorial
+robotis_op_iros_tutorial
+
 Repository for 2015 IROS Tutorial - How to use ROS and Gazebo with the ROBOTIS OP2
 
 2015 IEEE/RSJ International Conference on Intelligent Robots and Systems
@@ -60,25 +61,25 @@ Time 	Talk
 Organizers
  
 K. Daun
-#1506, 145, Gasan Digital 1-ro
+1506, 145, Gasan Digital 1-ro
 Geumcheon-gu, Seoul
 Korea
 kevin.daun@freenet.de
 
 J. Kim
-#1506, 145, Gasan Digital 1-ro
+1506, 145, Gasan Digital 1-ro
 Geumcheon-gu, Seoul
 Korea
 jinux@robotis.com
  
 R. Jung
-#1506, 145, Gasan Digital 1-ro
+1506, 145, Gasan Digital 1-ro
 Geumcheon-gu, Seoul
 Korea
 rwjung@robotis.com
 Contact
 K. Daun
-#1506, 145, Gasan Digital 1-ro
+1506, 145, Gasan Digital 1-ro
 Geumcheon-gu, Seoul
 Korea
 kevin.daun@freenet.de
