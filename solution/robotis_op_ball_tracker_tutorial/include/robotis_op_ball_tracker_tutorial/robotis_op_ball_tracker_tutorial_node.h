@@ -24,24 +24,19 @@ public:
     ~RobotisOPBallTrackingNode();
     void dynamicReconfigureCb(robotis_op_ball_tracker_tutorial::robotis_op_ball_tracker_tutorialConfig &config, uint32_t level);
 
+    void Process();
 protected:
 
 
 private:
 
 
-    /*
-     * detectCircles
-     * returns true if a circle has been detected
-     * offset contains the distance from the center to the detected circle, if an circle has been detected
-     * */
+    //returns true if a cirvle has been detected, offset contains the distance from the center to the detected circle if an circle has been detected
     bool detectCircles(const sensor_msgs::Image& msg, cv::Point& offset);
-
     /*
      * TODO
      * define Callback(s)
      * */
-
     void imageCb(const sensor_msgs::Image& msg);
     void jointStatesCb(const sensor_msgs::JointState& msg);   
 
@@ -51,17 +46,19 @@ private:
      * TODO
      * define Publisher and Subscriber
      * */
-
-    ros::Publisher tilt_pub_;
-    ros::Publisher pan_pub_;
-
     ros::Subscriber joint_states_sub_;
     ros::Subscriber image_sub_;
 
+    ros::Publisher tilt_pub_;
+    ros::Publisher pan_pub_;
+    ros::Publisher vel_pub_;
+    ros::Publisher transformed_img_pub_;
+    ros::Publisher blob_img_pub_;
+
+
     double dp_, minDist_, param1_, param2_, min_radius_, max_radius_;
     double pan_, tilt_;
-
-    int count_search_loop_;
+    int count_no_detection_, count_search_loop_;
 
 
 
